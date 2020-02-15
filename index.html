@@ -20,11 +20,13 @@
      <section class="intro">
        <h2 class="visually-hidden">Welcome to Sedona</h2>
        <img src="img/welcome.svg" height="353" width="459" alt="Приветствие">
+       <!--
        <p>
          <span>Welcome</span><span>- to the gorgeous -</span></br>
          Sedona</br>
          <span><q>Because the grand canyon sucks!</q></span>
        </p>
+       -->
       </section>
       <section class="advantages">
         <h1>
@@ -36,7 +38,7 @@
           <p>
            <span class="advantage-header">Настоящий городок</span></br>         
            <span class="advantage-number">— №1 —</span></br>
-           <span call="advantage-text">Седона — не аттракцион для туристов,</br>
+           <span class="advantage-text">Седона — не аттракцион для туристов,</br>
            там течёт своя жизнь</span>
           </p>
            <p>
@@ -101,14 +103,37 @@
             </p>
           </div>
         </section>
-        <section class="interested">
-          <p>
-            <b>Заинтересовались?</b></br>
-            Укажите предполагаемые даты поездки,</br> 
-            и мы покажем вам лучшие предложения гостиниц в седоне          
-          </p>
-          <!--Здесь будет выпадающее меню-->
-           <button type="button">Поиск гостиницы в Седоне</button>
+        <section class="appointment">
+            <h2>Заинтересовались?</h2>
+            <p class="appointment-info">
+             Укажите предполагаемые даты поездки,</br> 
+             и мы покажем вам лучшие предложения гостиниц в седоне          
+            </p>
+            <button type="button">Поиск гостиницы в Седоне</button>
+              <form class="appointment-form" action="#" method="POST">
+                <fieldset>
+                  <legend>Поиск гостиницы в Седоне</legend>
+                <p>
+                  <label for="appointment-date-arrive">Дата заезда</label>
+                  <input id="appointment-date-arrive" type="date" name="date-arrive" value="2017-04-24">
+                </p>
+                <p>
+                  <label for="appointment-date-departure">Дата выезда</label>
+                  <input id="appointment-date-departure" type="date" name="date-departure" value="2017-07-04">
+                </p>
+                <p>
+                  <label for="appointment-adults">Взрослые</label>
+                  <input id="appointment-adults" type="number" name="adults" min="0" step="1" value="2">
+                </p>
+                <p>
+                  <label for="appointment-kids">Дети</label>
+                  <input id="appointment-kids" type="number" name="kids" min="0" step="1" value="0">
+                </p>
+                <button type="submit">Найти</button>
+              </fieldset> 
+              </form>
+            </section>
+
           <!--Здесь можно вставить карту вместо картинки-->
            <p>
              <img src="img/map.jpg" height="594" width="1200" alt="Карта">

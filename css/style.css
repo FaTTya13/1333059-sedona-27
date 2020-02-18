@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  background-image: url("../img/bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.inner-page {
+  background-image: url("../img/filter-bg.jpg");
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.main-navigation {
+  background-color: #ffffff;
+  background-position: top;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation li {
+  background-color: #ffffff;
+  display: inline;
+  background-position: top center;
+}
+
+.site-navigation a {
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.intro img {
+  background-position: center;
+  background-color: black;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.advantages h1 {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.advantages p {
+  font-size: 14px;
+  text-align: center;
+  line-height: 26px;
+  color: #333333;
+}
+
+.advantages span {
+  color: #ffffff;
+}
+
+.advantage-1,
+.advantage-2,
+.advantage-3,
+.advantage-4,
+.advantage-5 {
+  width: 400px;
+  height: 256px;
+  background-color: #81b3d2;
+}
+
+.advantage-header {
+  font-weight: 700;
+  font-size: 21px;
+}
+
+.advantage-1-list ul {
+  list-style: none;
+}
+
+.advantage-1-list h3 {
+  font-size: 21px;
+}
+
+.advantage-1-list img {
+  object-fit: contain;
+}
+
+.advantage-1-list p {
+  font-size: 14px;
+  color: #333333;
+}
+
+.advantages-intro {
+  font-size: 14px;
+  line-height: 26px;
+  color: #333333;
+  text-align: center;
+
+  background-color: #ffffff;
+}
+
+.appointment-info {
+  font-size: 14px;
+  text-align: center;
+  color: #333333;
+
+  background-color: #ffffff;
+}
+
+.appointment-info span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.button-search {
+  width: 568px;
+  height: 86px;
+  background-color: brown;
+}
+
+.appointment-form {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.appointment-form input {
+  font: inherit;
+
+  border-style: hidden;
+  background-color: #f2f2f2;
+}
+
+.footer-contacts {
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: #ffffff;
+}
+
+.footer-copyright {
+  text-align: center;
+  background-color: #669ec0;
+}
+
+.hotel h3,
+.motel h3,
+.apartment h3 {
+  font-size: 21px;
+  text-align: left;
+  line-height: 26px;
+  color: #000000;
+}
+
+.hotel p:not(:last-of-type),
+.motel p:not(:last-of-type),
+.apartment p:not(:last-of-type) {
+  font-size: 14px;
+  text-align: left;
+  color: #333333;
+}
+
+.hotel p:last-of-type,
+.motel p:last-of-type,
+.apartment p:last-of-type {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #666666;
+}
